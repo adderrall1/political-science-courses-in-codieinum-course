@@ -1,0 +1,19 @@
+title: Political Science courses in cODIeinum
+description: >-
+  cOURse studys here are important to today world because science and politics
+  generate a new system of stars around the world of many formations that todays
+  politics take shape in.
+template:
+  repo: political-science-courses-in-codieinum-template
+  name: political-science-courses-in-codieinum
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
